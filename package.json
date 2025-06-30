@@ -1,0 +1,18 @@
+{
+    "name": "@orian/lensasia_react",
+    "description": "All pages are written here.",
+    "version": "1.0.0",
+    "main": "lensasia.js",
+    "keywords": [],
+    "author": {
+        "name": "OrianSoft",
+        "email": "info@oriansoft.com"
+    },
+    "license": "MIT",
+    "dependencies": {
+        "@orian/redux": "1.0.0",
+        "@orian/statics": "1.0.0",
+        "@orian/tailwind": "1.0.0",
+        "@orian/utils": "1.0.0"
+    }
+}
