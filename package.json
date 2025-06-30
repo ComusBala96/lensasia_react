@@ -10,8 +10,6 @@
     },
     "license": "MIT",
     "dependencies": {
-        "@orian/redux": "1.0.0",
-        "@orian/statics": "1.0.0",
         "@orian/tailwind": "1.0.0",
         "@orian/utils": "1.0.0"
     }
