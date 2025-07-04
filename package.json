@@ -10,7 +10,7 @@
     },
     "license": "MIT",
     "dependencies": {
-        "@oriansoft/tailwind": "1.0.0",
+        "@oriansoft/tailwind": "1.0.2",
         "@oriansoft/utils": "1.0.0"
     }
 }
