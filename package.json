@@ -1,5 +1,5 @@
 {
-    "name": "@orian/lensasia_react",
+    "name": "@oriansoft/lensasia_react",
     "description": "All pages are written here.",
     "version": "1.0.0",
     "main": "lensasia.js",
@@ -10,7 +10,7 @@
     },
     "license": "MIT",
     "dependencies": {
-        "@orian/tailwind": "1.0.0",
-        "@orian/utils": "1.0.0"
+        "@oriansoft/tailwind": "1.0.0",
+        "@oriansoft/utils": "1.0.0"
     }
 }
