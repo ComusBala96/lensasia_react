@@ -36,18 +36,24 @@ export default function ShowAds({ index, delay }) {
                 <div className="relative text-white h-[300px] w-[300px] mx-auto">
                     <div className="h-full w-full">
                         <img
-                            data-style='{"fit":[0,0]}'
                             src={src}
                             alt={alt}
-                            className="h-full w-full object-cover transition duration-300 ease-in-out hover:scale-[1.005]"
+                            className="h-full w-full object-fill transition duration-300 ease-in-out hover:scale-[1.005]"
                         />
                     </div>
                     {data?.sponsored === 1 && (
-                        <div data-style='{"opacity":0}' className="absolute right-0 top-0">
+                        <div className="absolute left-0 top-0 z-10">
                             <p
                                 className="text-nowrap bg-black/50 px-2 py-0.5 text-xs"
                             >
                                 Sponsored
+                            </p>
+                        </div>
+                    )}
+                    {data?.images.length === 0 && (
+                        <div className="absolute right-0 top-[1px] z-10">
+                            <p title="Hide Ad" className="cursor-pointer bg-boxdark/80 px-1 py-px text-xs">
+                                <i className="fa fa-close"></i>
                             </p>
                         </div>
                     )}
