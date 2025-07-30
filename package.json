@@ -1,16 +1,31 @@
 {
     "name": "@oriansoft/lensasia_react",
-    "description": "All pages are written here.",
     "version": "1.0.0",
+    "publishConfig": {
+        "access": "public"
+    },
+    "type": "module",
     "main": "lensasia.js",
-    "keywords": [],
+    "homepage": "https://github.com/ComusBala96/lensasia_react.git",
+    "description": "A npm package of lensasia_react for oriansoft.",
+    "keywords": [
+        "oriansoft",
+        "npm",
+        "@oriansoft",
+        "@oriansoft/lensasia_react",
+        "utils"
+    ],
     "author": {
         "name": "OrianSoft",
         "email": "info@oriansoft.com"
     },
     "license": "MIT",
+    "repository": {
+        "type": "git",
+        "url": "git+https://github.com/ComusBala96/lensasia_react.git"
+    },
     "dependencies": {
         "@oriansoft/tailwind": "1.0.2",
-        "@oriansoft/utils": "1.0.0"
+        "@oriansoft/utils": "1.0.2"
     }
 }
