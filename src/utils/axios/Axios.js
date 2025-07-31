@@ -1,4 +1,4 @@
-import { csrf_token, domain_url, local } from '@oriansoft/utils';
+import { csrf_token, domain_url, local } from '@orians/utils';
 import Axios, { CancelToken, isCancel } from 'axios';
 
 const token = csrf_token;

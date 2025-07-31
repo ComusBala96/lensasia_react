@@ -3,19 +3,19 @@
 ## Installation
 
 ```npm
-npm i @oriansoft/lensasia_react
+npm i @orians/lensasia_react
 ```
 
 ## Or
 
 ```yarn
-yarn add @oriansoft/lensasia_react
+yarn add @orians/lensasia_react
 ```
 
 ## Import
 
 ```js
-import '@oriansoft/lensasia_react';
+import '@orians/lensasia_react';
 ```
 
 ## Credits

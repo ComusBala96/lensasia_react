@@ -1,2 +1,2 @@
-import config from '@oriansoft/tailwind/postcss.config.js';
+import config from '@orians/tailwind/postcss.config.js';
 export default config;

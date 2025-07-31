@@ -1,4 +1,4 @@
-import { createImageUrl, domain_url, G } from '@oriansoft/utils';
+import { createImageUrl, domain_url, G } from '@orians/utils';
 import React from 'react';
 import { useState } from 'react';
 import { useCallback } from 'react';

@@ -1,8 +1,8 @@
 import axios from '../axios/Axios';
 import { useDispatch, useSelector } from 'react-redux';
-import { storeData, storeErrors } from '@oriansoft/lensasia_redux/slices/dataSlice';
-import { setLoading } from '@oriansoft/lensasia_redux/slices/stateSlice';
-import { local } from '@oriansoft/utils';
+import { storeData, storeErrors } from '@orians/lensasia_redux/slices/dataSlice';
+import { setLoading } from '@orians/lensasia_redux/slices/stateSlice';
+import { local } from '@orians/utils';
 
 export default usePostRequest = () => {
     const dispatch = useDispatch();
