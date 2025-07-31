@@ -1,6 +1,3 @@
-// import { BrowserRouter } from 'react-router-dom';
-// import { store } from '@orian/functions';
-// import { Provider } from 'react-redux';
 import { createRoot } from 'react-dom/client';
 import ShowAds from './ads/ShowAds';
 

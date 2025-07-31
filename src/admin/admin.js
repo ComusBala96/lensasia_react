@@ -1,8 +1,4 @@
 import { createRoot } from 'react-dom/client';
-// import { BrowserRouter } from 'react-router-dom';
-// import { store } from '@orian/functions';
-// import { Provider } from 'react-redux';
-
 import ShowAdditionalImages from './images/ShowAdditionalImages';
 import ShowAdditionalFiles from './files/ShowAdditionalFiles';
 
